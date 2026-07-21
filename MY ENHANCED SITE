@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AJIRA HUB</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: dodgerblue;
+            padding: 20px;
+            overflow-x: hidden;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #87CEFA;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            color: green;
+        }
+
+        /* Section styles */
+        section {
+            margin: 20px 0;
+        }
+
+        /* Title styles */
+        h2 {
+            background-color: #4682B4;
+            color: black;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        /* Paragraph styles */
+        p {
+            margin: 15px 0;
+        }
+
+        /* Link styles */
+        a {
+            color: hsl(0, 0%, 100%);
+            background-color:rgb(83, 79, 79);
+            padding: 8px 12px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        a:hover {
+            background-color: #910505;
+        }
+
+        /* Image styles */
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s;
+            width: 500px;height: 600px;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Table styles */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #000;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #96D4D4;
+        }
+
+        /* Form styles */
+        form {
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        fieldset {
+            border: 2px solid #ccc;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        legend {
+            padding: 0 10px;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #87CEFA;
+            padding: 15px;
+            text-align: center;
+            margin-top: 30px;
+            border-radius: 8px;
+        }
+
+        /* Responsive adjustments */
+        @media(max-width: 768px){
+            body {
+                padding: 10px;
+            }
+            form {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BOZY<sub>WIMA</sub> SMALL STEPS BIG MOVE</h1>
+    </header>
+
+    <section>
+        <p><cite>The screem</cite></p>
+        <a href="mailto:bozywima7@gmail.com" target="_blank">Send Mail</a>
+    </section>
+
+    <section>
+            <p>BozyNet Investment 5</p>
+        <p>Death is inevitable. So living is just postponing the inevitable.</p>
+        <p style="background-color:tomato; padding:10px; border-radius:8px;">
+            I have tasted village bad manners, I have also tasted big city horizontal engineering. I highly recommend avoiding short babes in tennis skirts with short hair for a hairstyle.
+        </p>
+    </section>
+
+    <section>
+        <h2>Gallery</h2>
+        <div style="display:flex; flex-wrap:wrap; gap:10px;">
+            <img src="Smile.jpg" alt="Image 1" style="width:48%;">
+            <img src="Comeback.jpg" alt="Image 2" style="width:48%;">
+        </div>
+        <div style="margin-top:15px;">
+            <p style="background-color:dodgerblue; padding:10px; border-radius:8px;">
+                <b>Oh I don't mean to make you cry but when I die just box me off I need:</b>
+            </p>
+            <p style="color:tomato;">NO HEADSTONE, NO NAMES, NO TITLES</p>
+            <p>I'm a piece of shit who will be forgotten "Anyway"</p>
+            <p>My mind has been a war zone; at least I pray I find peace now. If I die, no matter what, don't bring me back here.</p>
+            <p style="background-color:dodgerblue; padding:10px; border-radius:8px;">
+                It's dark here and I hate the dark but at least I tried, even though I tried with memories I would love to RELIEVE AGAIN.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <p><a href="http://youtube.challokingsma.com" target="_blank">Visit Our YouTube Channel</a></p>
+        <h3>Quote:</h3>
+        <blockquote style="font-style:italic; background-color:#f0f0f0; padding:10px; border-radius:8px;">
+            "The future is not ours to see, whatever will be, will be."
+        </blockquote>
+        <p>When she asked me if I sat next to you in a bar, looked into your face, and time was up — what would you say?</p>
+        <p>My first question would be: "OH! what took you so long?" I sent the invitation long ago, but you rejected me many times.</p>
+        <p>Sorry man, one last thing: can we just sit together for a bit so I can finally have a friend, please?</p>
+    </section>
+
+    <section>
+        <h2>Contact & Address</h2>
+        <address>
+            <strong>Written by:</strong> BAZIL OWIGO<br>
+            <strong>Visit us at:</strong> <a href="mailto:bozywima7@gmail.com">bozywima7@gmail.com</a><br>
+            PO BOX 123, NDHIWA
+        </address>
+    </section>
+
+    <section>
+        <h2>Students Details</h2>
+        <form>
+            <fieldset>
+                <legend>Student Information</legend>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required />
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required />
+
+                <label for="phone">Phone Number:</label>
+                <input type="text" id="phone" name="phone" placeholder="Enter your phone number" required />
+
+                <label for="course">Course:</label>
+                <input type="text" id="course" name="course" placeholder="Enter your course" required />
+
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" />
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" />
+                <label for="female">Female</label>
+            </fieldset>
+            <fieldset>
+                <legend>Remarks</legend>
+                <label for="remarks">Your Remarks:</label>
+                <textarea id="remarks" name="remarks" rows="4" placeholder="Any additional info..."></textarea>
+            </fieldset>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Icons</title>
+  <!-- Font Awesome CDN for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <style>
+    .contact-icons {
+      display: flex;
+      gap: 20px;
+      font-size: 2em;
+      justify-content: center;
+      margin-top: 50px;
+    }
+    a {
+      color: #000;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #007bff;
+    }
+  </style>
+</head>
+<body>
+  <div class="contact-icons">
+    <!-- WhatsApp -->
+    <a href="https://wa.me/0741281705" target="_blank" aria-label="WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <!-- Email -->
+    <a href="mailto:bozywima7@gmail.com" aria-label="Email">
+      <i class="fas fa-envelope"></i>
+    </a>
+    <!-- Facebook -->
+    <a href="https://facebook.com/yourpage" target="_blank" aria-label="Facebook">
+      <i class="fab fa-facebook"></i>
+    </a>
+  </div>
+</body>
+
+    <footer>
+        <p>&copy; 2025 BozyWima. All rights reserved.</p>
+    </footer>
+</body>
+</html>
